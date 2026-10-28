@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "https://agentbreakwithnlp.onrender.com/api/:path*" }
+  ]
+}
