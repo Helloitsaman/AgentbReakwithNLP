@@ -1,0 +1,10 @@
+{
+  "model": "tfidf+logreg (word 1-2gram + char 3-5gram)",
+  "train_size": 1315,
+  "test_size": 329,
+  "accuracy": 0.921,
+  "precision_injection": 0.8911,
+  "recall_injection": 0.8571,
+  "f1_injection": 0.8738,
+  "roc_auc": 0.9476
+}

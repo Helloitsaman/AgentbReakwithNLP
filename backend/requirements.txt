@@ -1,0 +1,21 @@
+# --- Core API ---
+fastapi
+uvicorn
+pymongo
+python-dotenv
+httpx
+
+# --- NLP engine (required for the NLP features; all run offline) ---
+scikit-learn>=1.3
+numpy
+scipy
+joblib
+
+# --- Optional upgrades (NOT required; the engine falls back automatically) ---
+# rapidfuzz                     # faster fuzzy canary matching
+# spacy                         # real POS + dependency parsing + NER
+#   python -m spacy download en_core_web_sm
+# transformers                  # zero-shot NLI refusal classifier + injection transformer
+# torch                         # backend for transformers
+# sentence-transformers         # embedding-based goal-drift detection
+# datasets                      # pull extra training corpora from Hugging Face
